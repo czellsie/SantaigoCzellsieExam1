@@ -105,10 +105,9 @@
         android:id="@+id/textView5"
         android:layout_width="168dp"
         android:layout_height="84dp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/textView6"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="97dp"
-        android:layout_marginStart="39dp"
+        android:layout_marginStart="36dp"
         android:text="a 1959 American animated musical fantasy film produced by Walt Disney based on The Sleeping Beauty by Charles Perrault."
         android:textAlignment="center"
         tools:text="a 1959 American animated musical fantasy film produced by Walt Disney based on The Sleeping Beauty by Charles Perrault." />
@@ -132,8 +131,7 @@
         android:layout_width="104dp"
         android:layout_height="54dp"
         android:layout_alignStart="@+id/imageView"
-        android:layout_below="@+id/textView6"
-        android:layout_marginTop="-109dp"
+        android:layout_below="@+id/textView5"
         android:text="A Princess who has a magically long hair"
         android:textAlignment="center"
         tools:text="A Princess who has a magically long hair" />
